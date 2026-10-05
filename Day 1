@@ -1,4 +1,4 @@
-October 2nd 2026
+October 6th 2026
 Day 1 : One Day
 Week 1: One Day
 Month 1: One Day
@@ -7,3 +7,27 @@ Month 1: One Day
 
 Today, 
 Verify my day 1:- 1) Done Rep[Takes 5min]; 5)Existing[0min]; 
+
+
+TryHackMe: Junior Security Analyst Intro (https://tryhackme.com/room/jrsecanalystintrouxo)
+-> News- https://thehackernews.com/
+
+Junior Security Analyst, also called a SOC Level 1 Analyst, 
+-Security Operations Center (SOC) is a team of IT security professionals tasked with monitoring, preventing, detecting, investigating, and responding to threats within a company’s network and systems.
+-work in a 24/7 SOC team
+-During your work shift, you would typically:
+Monitor and investigate various security alerts
+Participate in SOC brainstorms and workshops
+Cooperate with other teams to keep your company safe
+Constantly learn and discover new attacks and defenses
+
+Which team do you work with as a Junior Security Analyst? -> SOC
+
+==
+Senior Analyst - closest colleague. helps you and other Junior analysts when something is unclear and handles complex cases after you do the initial analysis.
+SOC Engineer - doesn't have shifts and doesn't analyze the alerts. Instead, he maintains security tools and configures the alerts to make your analyst's job easier.
+SOC Manager - tries to keep everything under control. reports SOC results to the top management and makes sure you aren't lost in that big new cyber security world.
+Incident Responder - You don't work with Daniel every day, but when he's online, you know something serious has happened. He is called on demand during major incidents.
+
+
+***There are many open-source databases out there, like AbuseIPDB, and Cisco Talos Intelligence, where you can perform a reputation and location check for the IP address. ou can also make the Internet safer by reporting the malicious IPs, for example, on AbuseIPDB.***
