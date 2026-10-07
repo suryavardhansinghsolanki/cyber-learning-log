@@ -18,9 +18,9 @@
 ### SKILLS & IMPROVEMENTS:
 * 15-minute daily book reading: **COMPLETED ✅**
 * 10 Basic Linux command
-* OSI Model [La]
+* OSI Model
 
-### LEARNING RESOURCE:
+### LEARNING RESOURCE: OSI
 * [TryHackMe - Intro to Networking Room](https://tryhackme.com/room/introtonetworking?vccr=1)
 
 ---
@@ -28,6 +28,7 @@
 # OSI Model & Network Fundamentals - Study Notes
 
 ## 1. Overview of the OSI Model
+* **OSI:** OPEN SYSTEM INTERCONNECTION.
 * **Purpose:** A standardized theoretical model used to explain computer networking concepts.
 * **Real-world Counterpart:** The more compact **TCP/IP model** is used in practice, but the OSI model provides an easier conceptual foundation.
 * **Mnemonic for Layers (7 to 1):** *Anxious Pale Shakespeare Treated Nervous Drunks Patiently*
@@ -84,7 +85,7 @@
     * **Answer:** UDP
 ---
 
-## 3. Kali Linux Command Reference
+## 3. Kali Linux Command Reference [BONUS]
 
 # Linux Terminal Commands Master Reference Cheat Sheet
 
