@@ -25,43 +25,63 @@
 
 ---
 
-# OSI Model Lab: Answer Key
+# OSI Model & Network Fundamentals - Study Notes
 
-Here are the answers to the questions based on the provided text and networking fundamentals:
+## 1. Overview of the OSI Model
+* **Purpose:** A standardized theoretical model used to explain computer networking concepts.
+* **Real-world Counterpart:** The more compact **TCP/IP model** is used in practice, but the OSI model provides an easier conceptual foundation.
+* **Mnemonic for Layers (7 to 1):** *Anxious Pale Shakespeare Treated Nervous Drunks Patiently*
 
-### 1. Which layer would choose to send data over TCP or UDP?
-* **Answer:** `4` (Transport Layer)
+---
 
-### 2. Which layer checks received information to make sure that it hasn't been corrupted?
-* **Answer:** `2` (Data Link Layer)
+## 2. The 7 Layers of the OSI Model
 
-### 3. In which layer would data be formatted in preparation for transmission?
-* **Answer:** `2` (Data Link Layer)
+| Layer | Name | Key Functions & Protocols |
+| :--- | :--- | :--- |
+| **Layer 7** | Application | Provides networking options to programs/applications (e.g., FTP, HTTP). |
+| **Layer 6** | Presentation | Translates data into a standardized format; handles **encryption, compression, and transformations**. |
+| **Layer 5** | Session | Establishes, maintains, and synchronizes unique communication sessions between hosts (allows multi-tab browsing). |
+| **Layer 4** | Transport | Chooses protocols (**TCP** for reliable/connection-based; **UDP** for fast/unreliable streaming) and divides data into **segments** (TCP) or **datagrams** (UDP). |
+| **Layer 3** | Network | Handles **logical addressing (IP addresses, IPv4)** and routing across networks. |
+| **Layer 2** | Data Link | Uses physical **MAC addresses** (burned into the NIC) for node-to-node delivery, formats data for transmission, and performs **error checking** for corruption. |
+| **Layer 1** | Physical | Hardware layer; converts binary data into electrical/physical signals for transmission across physical media. |
 
-### 4. Which layer transmits and receives data?
-* **Answer:** `1` (Physical Layer)
+---
 
-### 5. Which layer encrypts, compresses, or otherwise transforms the initial data to give it a standardised format?
-* **Answer:** `6` (Presentation Layer)
+## 3. TryHackMe Questions & Answer Key
 
-### 6. Which layer tracks communications between the host and receiving computers?
-* **Answer:** `5` (Session Layer)
+1. **Which layer would choose to send data over TCP or UDP?**
+   * **Answer:** `4` (Transport Layer)
 
-### 7. Which layer accepts communication requests from applications?
-* **Answer:** `7` (Application Layer)
+2. **Which layer checks received information to make sure that it hasn't been corrupted?**
+   * **Answer:** `2` (Data Link Layer)
 
-### 8. Which layer handles logical addressing?
-* **Answer:** `3` (Network Layer)
+3. **In which layer would data be formatted in preparation for transmission?**
+   * **Answer:** `2` (Data Link Layer)
 
-### 9. When sending data over TCP, what would you call the "bite-sized" pieces of data?
-* **Answer:** `segments`
+4. **Which layer transmits and receives data?**
+   * **Answer:** `1` (Physical Layer)
 
-### 10. [Research] Which layer would the FTP protocol communicate with?
-* **Answer:** `7` (Application Layer)
+5. **Which layer encrypts, compresses, or otherwise transforms the initial data to give it a standardised format?**
+   * **Answer:** `6` (Presentation Layer)
 
-### 11. Which transport layer protocol would be best suited to transmit a live video?
-* **Answer:** `UDP`
+6. **Which layer tracks communications between the host and receiving computers?**
+   * **Answer:** `5` (Session Layer)
 
+7. **Which layer accepts communication requests from applications?**
+   * **Answer:** `7` (Application Layer)
+
+8. **Which layer handles logical addressing?**
+   * **Answer:** `3` (Network Layer)
+
+9. **When sending data over TCP, what would you call the "bite-sized" pieces of data?**
+   * **Answer:** Segments
+
+10. **[Research] Which layer would the FTP protocol communicate with?**
+    * **Answer:** `7` (Application Layer)
+
+11. **Which transport layer protocol would be best suited to transmit a live video?**
+    * **Answer:** UDP
 ---
 
 ## 3. Kali Linux Command Reference
