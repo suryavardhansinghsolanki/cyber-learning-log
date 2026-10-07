@@ -9,15 +9,15 @@
 * **Morning Routine:** Woke up at 7:00 AM (hydration $\rightarrow$ tea $\rightarrow$ fresh).
 * **Chore Management:** Ironed clothes and cleaned the entire room thoroughly.
 * **Habit Building:** Read the book *"#invest in you"* for 15–20 minutes.
-* **Discipline:** Successfully exercised self-control for a major portion of the day.
+* **Discipline:** Self-control [But short time only] [BAD-GOOD]
 
 ### BAD:
-* **Setback:** Lost control toward the end and then RELEASED (Note: Maintained zero screen use during this activity).
+* **Setback:** Lost control toward the end and then RELEASED (Note: Maintained zero screen use during this bad activity).
 * **Schedule Shift:** Delayed bath until 3:30 PM.
 
 ### SKILLS & IMPROVEMENTS:
 * 15-minute daily book reading: **COMPLETED ✅**
-* 10 Basic Linux command
+* 10 Basic Linux commands
 * OSI Model
 
 ### LEARNING RESOURCE: OSI
