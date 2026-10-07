@@ -17,13 +17,54 @@
 
 ### SKILLS & IMPROVEMENTS:
 * 15-minute daily book reading: **COMPLETED ✅**
+* 10 Basic Linux command
+* OSI Model [La]
 
 ### LEARNING RESOURCE:
 * [TryHackMe - Intro to Networking Room](https://tryhackme.com/room/introtonetworking?vccr=1)
 
 ---
 
-## 2. Kali Linux Command Reference
+# OSI Model Lab: Answer Key
+
+Here are the answers to the questions based on the provided text and networking fundamentals:
+
+### 1. Which layer would choose to send data over TCP or UDP?
+* **Answer:** `4` (Transport Layer)
+
+### 2. Which layer checks received information to make sure that it hasn't been corrupted?
+* **Answer:** `2` (Data Link Layer)
+
+### 3. In which layer would data be formatted in preparation for transmission?
+* **Answer:** `2` (Data Link Layer)
+
+### 4. Which layer transmits and receives data?
+* **Answer:** `1` (Physical Layer)
+
+### 5. Which layer encrypts, compresses, or otherwise transforms the initial data to give it a standardised format?
+* **Answer:** `6` (Presentation Layer)
+
+### 6. Which layer tracks communications between the host and receiving computers?
+* **Answer:** `5` (Session Layer)
+
+### 7. Which layer accepts communication requests from applications?
+* **Answer:** `7` (Application Layer)
+
+### 8. Which layer handles logical addressing?
+* **Answer:** `3` (Network Layer)
+
+### 9. When sending data over TCP, what would you call the "bite-sized" pieces of data?
+* **Answer:** `segments`
+
+### 10. [Research] Which layer would the FTP protocol communicate with?
+* **Answer:** `7` (Application Layer)
+
+### 11. Which transport layer protocol would be best suited to transmit a live video?
+* **Answer:** `UDP`
+
+---
+
+## 3. Kali Linux Command Reference
 
 # Linux Terminal Commands Master Reference Cheat Sheet
 
