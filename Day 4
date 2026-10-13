@@ -1,0 +1,25 @@
+Day 4: 13 October 2026
+
+Over the Wire
+
+
+Common Commands for a Hyphen File
+• View its contents: cat ./-
+• Check its file type: file ./-
+• See its details/permissions: ls -l ./-
+• Delete the file: rm ./-
+
+OPEN FILE: starts with dashes and it contains spaces.
+
+VIEW:-
+Path Prefix + Quotes (Recommended): cat "./--spaces in this filename--" 
+---(The ./ stops the terminal from seeing the starting dashes as options, and the quotes handle the spaces)
+Double Dash + Quotes: cat "./--spaces in this filename--"
+---(• The -- tells the command to stop looking for options, and the quotes handle the spaces).
+
+EDIT
+
+nano "./--spaces in this filename--"
+vim "./--spaces in this filename--"
+
+TIP: Type cat ./--s and press the Tab key.
